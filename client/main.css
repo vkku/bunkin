@@ -1,26 +1,29 @@
 
 @import url('https://fonts.googleapis.com/css?family=Bubbler+One');
+@import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
 
   body {
       font: 400 15px Lato, sans-serif;
       line-height: 1.8;
       color: #818181;
   }
-  h2 {
+  .text h2 {
       font-size: 24px;
       text-transform: uppercase;
-      color: #303030;
+      color: indianred;
       font-weight: 600;
       margin-bottom: 30px;
   }
-  h4 {
+  .text h4 {
       font-size: 19px;
       line-height: 1.375em;
-      color: #303030; 
+      color: indianred; 
       font-weight: 400;
       margin-bottom: 30px;
-  }  
+  } 
 
+.text  {
+    color: black;
 }
 .name{
     text-align: center;
@@ -30,14 +33,36 @@
 
 }
 .bg{     
-    background-image: url("img/bg.jpg");
+    background-image: url("bg.jpg");
     color: white;
 }
 .bgu{
-    height: 600px;
-    background-image: url("img/bgu.jpg");
+    height: 650px;
+    background-image: url("bgu.jpg");
     background-size: contain;
     background-size: cover;
+    background-repeat: round;
+}
+
+.bguin{
+    
+    width: 700px;
+    height: 100px;
+    position: relative;
+    left: 320px;
+    top: 150px;
+    
+}
+
+.bguin h3{
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 35px;
+    color: black;
+    opacity: 0.9;
+}
+.bgu2{
+    background-color: lightblue;
+    background-size: contain;
     background-repeat: round;
 }
  .greyimg img{ 
@@ -59,10 +84,10 @@
       padding: 60px 50px;
   }
   .bg-grey {
-      background-color: #f6f6f6;
+      background-color: lightskyblue;
   }
   .logo-small {
-      color: deepskyblue;
+      color: indianred;
       font-size: 50px;
   }
   .logo {
@@ -165,7 +190,7 @@
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #f4511e;
+      color: darkgreen;
   }
   .slideanim {visibility:hidden;}
   .slide {
